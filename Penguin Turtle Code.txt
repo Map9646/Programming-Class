@@ -1,0 +1,86 @@
+INPUT
+
+window_height             int                  1800        
+
+window_width              int                  1000
+
+t                         object               turtle.Turtle()
+
+
+
+OUTPUT                   
+
+Drawing			  PNG                 PNG Drawing created with Turtle
+
+
+
+import Turtle
+
+window_height = input window height
+window_width =  input window width
+
+#Put Turtle into a variable object that can be used
+t = turtle.Turtle()
+
+def main()
+
+	t.down()
+
+	draw_rectangle(side1, side2, side3, side4, "blue")
+
+	t.up()
+	t.goto()#move to head position to draw circle
+	t.down()
+
+	draw_circle(size, "blue")
+
+	t.up()
+	t.goto()#move arm 1 position
+	t.down()
+
+	draw_triangle(side1, side2, side3)
+
+	t.up()
+	t.goto()#move to arm 2 position
+	t.down()
+
+	draw_triangle(side1, side2, side3)
+
+	t.up()
+	t.goto()#move to foot1 position
+	t.down()
+
+	draw_rectangle(side1, side2, side3, side4, "yellow")
+
+	
+
+
+
+
+def draw_rectangle(height, width, side1, side2):
+	t.down
+	for in in range():
+    	  t.foward()
+    	  t.rt(90)
+#This function will allow me to instantly draw a rectangle
+
+def draw_circle(size, color):
+#This function will allow me to draw a circle instantly
+	t.down()
+	for i in range(360):
+	  t.speed(0)
+	  t.foward(1)
+	  t.rt(1)
+
+def draw_triangle(side1, side2, side3):
+#This function will allow me to draw a triangle instantly
+	t.down()
+	for in in range():
+	  t.foward()
+          t.lt(45)
+
+
+
+
+
+
